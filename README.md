@@ -73,15 +73,16 @@ Deployed using **Vercel (Frontend)** and **Railway (Backend)**.
 
 ## ⚙️ Setup Instructions
 
-### 🔹 Backend Setup
+### 🔹 Setup
 
 ```bash
+### 🔹 (backend)
 cd backend
 pip install -r requirements.txt
 python run.py
 
 
-### 🔹 Frontend Setup
+### 🔹 (frontend)
 cd frontend
 npm install
 npm start
