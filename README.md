@@ -7,7 +7,7 @@ Deployed using **Vercel (Frontend)** and **Railway (Backend)**.
 
 ## 🌐 Live Demo
 
-- 🔗 Frontend: https://your-vercel-link.vercel.app](https://team-task-manager-self-ten.vercel.app/
+- 🔗 Frontend: [https://your-vercel-link.vercel.app](https://team-task-manager-self-ten.vercel.app/](https://team-task-manager-self-ten.vercel.app/)
 - 🔗 Backend API: https://zoological-art-production-640b.up.railway.app  
 
 ---
