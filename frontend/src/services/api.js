@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "zoological-art-production-640b.up.railway.app"
+  baseURL: "https://zoological-art-production-640b.up.railway.app/"
 });
 
 API.interceptors.request.use((config) => {
