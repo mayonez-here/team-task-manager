@@ -70,28 +70,6 @@ Deployed using **Vercel (Frontend)** and **Railway (Backend)**.
 - Vercel (Frontend)
 - Railway (Backend)
 
----
-
-## 📂 Project Structure
-team-task-manager/
-│
-├── backend/
-│ ├── app/
-│ ├── routes/
-│ ├── models/
-│ ├── run.py
-│
-├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ ├── services/api.js
-│
-└── README.md
-
-
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -101,3 +79,9 @@ team-task-manager/
 cd backend
 pip install -r requirements.txt
 python run.py
+
+
+### 🔹 Frontend Setup
+cd frontend
+npm install
+npm start
