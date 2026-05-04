@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://team-task-manager-self-ten.vercel.app/"
+  baseURL: "zoological-art-production-640b.up.railway.app"
 });
 
 API.interceptors.request.use((config) => {
