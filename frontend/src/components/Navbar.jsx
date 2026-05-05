@@ -15,12 +15,12 @@ export default function Navbar() {
       color: "white"
     }}>
       
-      <div style={{ display: "flex", gap: "15px" }}>
+      {/* <div style={{ display: "flex", gap: "15px" }}>
         <Link to="/dashboard" style={{ color: "white" }}>Dashboard</Link>
         <Link to="/projects" style={{ color: "white" }}>Projects</Link>
         <Link to="/tasks" style={{ color: "white" }}>Tasks</Link>
         
-      </div>
+      </div> */}
 
       <button onClick={logout}>
         Logout
