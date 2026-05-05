@@ -19,6 +19,7 @@ export default function Navbar() {
         <Link to="/dashboard" style={{ color: "white" }}>Dashboard</Link>
         <Link to="/projects" style={{ color: "white" }}>Projects</Link>
         <Link to="/tasks" style={{ color: "white" }}>Tasks</Link>
+        
       </div>
 
       <button onClick={logout}>
