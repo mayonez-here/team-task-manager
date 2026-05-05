@@ -18,7 +18,7 @@ export default function Layout({ children }) {
         color: "white",
         padding: "20px"
       }}>
-        <h2 style={{ marginBottom: "30px" }}>⚡ Task SaaS</h2>
+        <h2 style={{ marginBottom: "30px" }}>⚡Team Task Manager </h2>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
           <Link to="/dashboard" style={{ color: "white" }}>📊 Dashboard</Link>
