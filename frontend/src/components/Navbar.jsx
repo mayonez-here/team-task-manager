@@ -13,17 +13,13 @@ export default function Navbar() {
     <div style={{
       display: "flex",
       justifyContent: "space-between",
-      alignItems: "center",
-      padding: "15px 30px",
+      padding: "15px",
       background: "#111",
       color: "white"
     }}>
       
-      {/* 🔥 APP NAME */}
-      <h2 style={{ margin: 0 }}>🚀 Team Task Manager</h2>
-
-      {/* NAV LINKS */}
-      <div style={{ display: "flex", gap: "20px" }}>
+      {/* LEFT LINKS */}
+      <div style={{ display: "flex", gap: "15px" }}>
         <Link to="/dashboard" style={{ color: "white" }}>Dashboard</Link>
         <Link to="/projects" style={{ color: "white" }}>Projects</Link>
         <Link to="/tasks" style={{ color: "white" }}>Tasks</Link>
@@ -34,16 +30,7 @@ export default function Navbar() {
       </div>
 
       {/* LOGOUT */}
-      <button
-        onClick={logout}
-        style={{
-          background: "red",
-          color: "white",
-          border: "none",
-          padding: "8px 12px",
-          cursor: "pointer"
-        }}
-      >
+      <button onClick={logout}>
         Logout
       </button>
     </div>
